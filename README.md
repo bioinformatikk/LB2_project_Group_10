@@ -10,6 +10,7 @@ The project notebooks correspond one-to-one with the course parts and use the sa
 LB2_project_Group_10/
 |-- notebooks/
 |   |-- 02a_data_collection.ipynb
+|   |-- 02b_data_preparation.ipynb
 |   `-- archive/
 |       `-- Untitled2.ipynb
 |-- data/
@@ -31,18 +32,18 @@ LB2_project_Group_10/
 - `data/collected/`: preliminary UniProt datasets in TSV and FASTA formats.
 - `docs/`: project notes and documentation.
 
-Python dependencies are listed in `requirements.txt`.
+Python dependencies are listed in `requirements.txt`. Part 02b also requires the MMseqs2 command-line tool.
 
 ## Progress
 
 _Last updated: 18 September 2026._
 
-**Current focus: 02b - Data preparation (pending).** Notebook not yet created.
+**Current focus: [02b - Data preparation](notebooks/02b_data_preparation.ipynb).** Redundancy reduction with MMseqs2.
 
 | Part                                                         | Status      | Results                                                                                                |
 | ------------------------------------------------------------ | ----------- | ------------------------------------------------------------------------------------------------------ |
 | [02a - Data collection](notebooks/02a_data_collection.ipynb) | ✅ Reviewed | 2,957 positive and 20,974 negative proteins collected. TSV/FASTA accessions and record order verified. |
-| 02b - Data preparation                                       | ⏳ Pending  | Not started.                                                                                           |
+| [02b - Data preparation](notebooks/02b_data_preparation.ipynb) | 🚧 In progress | Loaded 2,957 positive and 20,974 negative proteins. Clustering and representative export added but not executed; splits pending. |
 
 <details>
 <summary>Status legend</summary>
