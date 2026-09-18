@@ -1,0 +1,12 @@
+# Python and notebook temporary files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local environments
+.venv/
+venv/
+
+# Operating system files
+.DS_Store
+Thumbs.db
