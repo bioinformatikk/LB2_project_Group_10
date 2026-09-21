@@ -14,11 +14,20 @@ LB2_project_Group_10/
 |   `-- archive/
 |       `-- Untitled2.ipynb
 |-- data/
-|   `-- collected/
+|   |-- collected/
+|   |   |-- positive_dataset.tsv
+|   |   |-- positive_dataset.fasta
+|   |   |-- negative_dataset.tsv
+|   |   `-- negative_dataset.fasta
+|   `-- prepared/
 |       |-- positive_dataset.tsv
-|       |-- positive_dataset.fasta
 |       |-- negative_dataset.tsv
-|       `-- negative_dataset.fasta
+|       |-- positive_rep_seq.fasta
+|       |-- negative_rep_seq.fasta
+|       |-- positive_cluster.tsv
+|       |-- negative_cluster.tsv
+|       |-- positive_all_seqs.fasta
+|       `-- negative_all_seqs.fasta
 |-- docs/
 |   `-- notes.txt
 |-- .gitignore
@@ -30,20 +39,21 @@ LB2_project_Group_10/
 - `notebooks/archive/`: earlier drafts.
 - `data/`: project datasets.
 - `data/collected/`: preliminary UniProt datasets in TSV and FASTA formats.
+- `data/prepared/`: MMseqs2 outputs and representative metadata; temporary working directories are omitted from the tree.
 - `docs/`: project notes and documentation.
 
 Python dependencies are listed in `requirements.txt`. Part 02b also requires the MMseqs2 command-line tool.
 
 ## Progress
 
-_Last updated: 18 September 2026._
+_Last updated: 21 September 2026._
 
-**Current focus: [02b - Data preparation](notebooks/02b_data_preparation.ipynb).** Redundancy reduction with MMseqs2.
+**Current focus: [02b - Data preparation](notebooks/02b_data_preparation.ipynb).** Training/benchmarking split added; execution and five CV folds pending.
 
 | Part                                                         | Status      | Results                                                                                                |
 | ------------------------------------------------------------ | ----------- | ------------------------------------------------------------------------------------------------------ |
-| [02a - Data collection](notebooks/02a_data_collection.ipynb) | ✅ Reviewed | 2,957 positive and 20,974 negative proteins collected. TSV/FASTA accessions and record order verified. |
-| [02b - Data preparation](notebooks/02b_data_preparation.ipynb) | 🚧 In progress | Loaded 2,957 positive and 20,974 negative proteins. Clustering and representative export added but not executed; splits pending. |
+| [02a - Data collection](notebooks/02a_data_collection.ipynb) | ✅ Reviewed | 2,957 positive and 20,974 negative proteins collected. |
+| [02b - Data preparation](notebooks/02b_data_preparation.ipynb) | 🚧 In progress | 1,102 positive and 9,082 negative representatives, with metadata exported. The 80/20 split is implemented but not yet executed; five training folds are pending. |
 
 <details>
 <summary>Status legend</summary>

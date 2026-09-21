@@ -10,3 +10,6 @@ venv/
 # Operating system files
 .DS_Store
 Thumbs.db
+
+# MMseqs2 temporary files
+/data/prepared/tmp_*/
