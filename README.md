@@ -11,6 +11,7 @@ LB2_project_Group_10/
 |-- notebooks/
 |   |-- 02a_data_collection.ipynb
 |   |-- 02b_data_preparation.ipynb
+|   |-- 02c_data_analysis.ipynb
 |   `-- archive/
 |       `-- Untitled2.ipynb
 |-- data/
@@ -36,13 +37,13 @@ Python dependencies are listed in `requirements.txt`. Part 02b also requires the
 
 _Last updated: 22 September 2026._
 
-**Current focus: 02c - Data analysis.** Next: analyze and visualize the prepared datasets.
+**Current focus: [02c - Data analysis](notebooks/02c_data_analysis.ipynb).** Step 0: load the prepared datasets.
 
 | Part                                                         | Status      | Results                                                                                                |
 | ------------------------------------------------------------ | ----------- | ------------------------------------------------------------------------------------------------------ |
 | [02a - Data collection](notebooks/02a_data_collection.ipynb) | ✅ Reviewed | 2,957 positive and 20,974 negative proteins collected. |
 | [02b - Data preparation](notebooks/02b_data_preparation.ipynb) | ✅ Reviewed | 1,102 positive and 9,082 negative representatives in four files. Training: 881 positive / 7,265 negative; benchmarking: 221 positive / 1,817 negative. Five training folds assigned. |
-| 02c - Data analysis | ⏳ Pending | Analyze and visualize the prepared datasets. |
+| [02c - Data analysis](notebooks/02c_data_analysis.ipynb) | 🚧 In progress | Step 0 prepared: imports and data loading. Not yet executed. |
 
 <details>
 <summary>Status legend</summary>
