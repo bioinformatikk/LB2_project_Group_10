@@ -11,5 +11,5 @@ venv/
 .DS_Store
 Thumbs.db
 
-# MMseqs2 temporary files
-/data/prepared/tmp_*/
+# MMseqs2 working files
+/data/mmseqs2/
