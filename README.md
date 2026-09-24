@@ -45,13 +45,13 @@ Python dependencies are listed in `requirements.txt`. Part 02b also requires the
 
 _Last updated: 24 September 2026._
 
-**Current focus: [02c - Data analysis](notebooks/02c_data_analysis.ipynb).** Step 4: review local WebLogo cleavage-site logos.
+**Current focus: [02c - Data analysis](notebooks/02c_data_analysis.ipynb).** Step 4: cleavage-site logos and observations completed.
 
 | Part                                                         | Status      | Results                                                                                                |
 | ------------------------------------------------------------ | ----------- | ------------------------------------------------------------------------------------------------------ |
 | [02a - Data collection](notebooks/02a_data_collection.ipynb) | ✅ Reviewed | 2,957 positive and 20,974 negative proteins collected. |
 | [02b - Data preparation](notebooks/02b_data_preparation.ipynb) | ✅ Reviewed | 1,102 positive and 9,082 negative representatives in four files. Training: 881 positive / 7,265 negative; benchmarking: 221 positive / 1,817 negative. Five training folds assigned. |
-| [02c - Data analysis](notebooks/02c_data_analysis.ipynb) | 🚧 In progress | Length, SP composition and taxonomy analyses completed, including frequent-species tables and observations. 15 numbered PDF figures exported, including local WebLogo cleavage-site logos for training and benchmarking with a shared axis and improved readability. Logo interpretation pending. |
+| [02c - Data analysis](notebooks/02c_data_analysis.ipynb) | 🚧 In progress | Length, SP composition and taxonomy analyses completed, including frequent-species tables and observations. 15 numbered PDF figures exported, including local WebLogo cleavage-site logos for training and benchmarking with a shared axis and improved readability. Observations describe shared cleavage-site preferences and upstream hydrophobic patterns in both splits. |
 
 <details>
 <summary>Status legend</summary>
