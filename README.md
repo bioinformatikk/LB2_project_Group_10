@@ -45,7 +45,7 @@ Python dependencies are listed in `requirements.txt`. Part 02b also requires the
 
 _Last updated: 24 September 2026._
 
-**Current focus: [02c - Data analysis](notebooks/02c_data_analysis.ipynb).** Step 4: cleavage-site logos and observations completed.
+**Current focus: [02c - Data analysis](notebooks/02c_data_analysis.ipynb).** Steps 1–4 completed. N-terminal composition comparison proposed; window length pending.
 
 | Part                                                         | Status      | Results                                                                                                |
 | ------------------------------------------------------------ | ----------- | ------------------------------------------------------------------------------------------------------ |
