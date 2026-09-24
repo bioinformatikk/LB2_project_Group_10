@@ -17,6 +17,9 @@ LB2_project_Group_10/
 |-- data/
 |   |-- collected/
 |   `-- prepared/
+|-- results/
+|   `-- figures/
+|       `-- 02c/
 |-- docs/
 |   `-- notes.txt
 |-- .gitignore
@@ -29,7 +32,10 @@ LB2_project_Group_10/
 - `data/`: positive and negative datasets in TSV and FASTA formats.
 - `data/collected/`: preliminary UniProt datasets.
 - `data/prepared/`: representative sequences and metadata, including split and CV fold assignments.
+- `results/figures/02c/`: exported PDF figures, numbered by notebook subsection.
 - `docs/`: project notes and documentation.
+
+The plotting cells in 02c save each figure as a PDF, print its path and display it in the notebook. Rerunning a cell updates the corresponding file.
 
 Python dependencies are listed in `requirements.txt`. Part 02b also requires the MMseqs2 command-line tool.
 
@@ -43,7 +49,7 @@ _Last updated: 24 September 2026._
 | ------------------------------------------------------------ | ----------- | ------------------------------------------------------------------------------------------------------ |
 | [02a - Data collection](notebooks/02a_data_collection.ipynb) | ✅ Reviewed | 2,957 positive and 20,974 negative proteins collected. |
 | [02b - Data preparation](notebooks/02b_data_preparation.ipynb) | ✅ Reviewed | 1,102 positive and 9,082 negative representatives in four files. Training: 881 positive / 7,265 negative; benchmarking: 221 positive / 1,817 negative. Five training folds assigned. |
-| [02c - Data analysis](notebooks/02c_data_analysis.ipynb) | 🚧 In progress | Length, SP composition and taxonomy analyses completed, including frequent-species tables and observations. Cleavage-site logos pending. |
+| [02c - Data analysis](notebooks/02c_data_analysis.ipynb) | 🚧 In progress | Length, SP composition and taxonomy analyses completed, including frequent-species tables and observations. 13 numbered PDF figures exported. Cleavage-site logos pending. |
 
 <details>
 <summary>Status legend</summary>
