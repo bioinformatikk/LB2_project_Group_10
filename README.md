@@ -37,13 +37,13 @@ Python dependencies are listed in `requirements.txt`. Part 02b also requires the
 
 _Last updated: 24 September 2026._
 
-**Current focus: [02c - Data analysis](notebooks/02c_data_analysis.ipynb).** Step 1: compare length distributions.
+**Current focus: [02c - Data analysis](notebooks/02c_data_analysis.ipynb).** Step 2: compare SP amino-acid composition with SwissProt.
 
 | Part                                                         | Status      | Results                                                                                                |
 | ------------------------------------------------------------ | ----------- | ------------------------------------------------------------------------------------------------------ |
 | [02a - Data collection](notebooks/02a_data_collection.ipynb) | ✅ Reviewed | 2,957 positive and 20,974 negative proteins collected. |
 | [02b - Data preparation](notebooks/02b_data_preparation.ipynb) | ✅ Reviewed | 1,102 positive and 9,082 negative representatives in four files. Training: 881 positive / 7,265 negative; benchmarking: 221 positive / 1,817 negative. Five training folds assigned. |
-| [02c - Data analysis](notebooks/02c_data_analysis.ipynb) | 🚧 In progress | Protein and SP length plots completed, with P99 views and descriptive observations. Figure selection pending. |
+| [02c - Data analysis](notebooks/02c_data_analysis.ipynb) | 🚧 In progress | Length plots and observations completed. SP composition comparison with SwissProt completed, with descriptive observations. |
 
 <details>
 <summary>Status legend</summary>
