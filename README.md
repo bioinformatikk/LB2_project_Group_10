@@ -16,7 +16,8 @@ LB2_project_Group_10/
 |       `-- Untitled2.ipynb
 |-- data/
 |   |-- collected/
-|   `-- prepared/
+|   |-- prepared/
+|   `-- analysis/
 |-- results/
 |   `-- figures/
 |       `-- 02c/
@@ -32,24 +33,25 @@ LB2_project_Group_10/
 - `data/`: positive and negative datasets in TSV and FASTA formats.
 - `data/collected/`: preliminary UniProt datasets.
 - `data/prepared/`: representative sequences and metadata, including split and CV fold assignments.
+- `data/analysis/`: cleavage-site FASTA windows for training and benchmarking.
 - `results/figures/02c/`: exported PDF figures, numbered by notebook subsection.
 - `docs/`: project notes and documentation.
 
 The plotting cells in 02c save each figure as a PDF, print its path and display it in the notebook. Rerunning a cell updates the corresponding file.
 
-Python dependencies are listed in `requirements.txt`. Part 02b also requires the MMseqs2 command-line tool.
+Python dependencies are listed in `requirements.txt`. Part 02b also requires the MMseqs2 command-line tool. Part 02c uses local WebLogo and requires Ghostscript for PDF and PNG output; its setup cell includes the Conda installation command.
 
 ## Progress
 
 _Last updated: 24 September 2026._
 
-**Current focus: [02c - Data analysis](notebooks/02c_data_analysis.ipynb).** Next: visualize SP cleavage-site motifs.
+**Current focus: [02c - Data analysis](notebooks/02c_data_analysis.ipynb).** Step 4: review local WebLogo cleavage-site logos.
 
 | Part                                                         | Status      | Results                                                                                                |
 | ------------------------------------------------------------ | ----------- | ------------------------------------------------------------------------------------------------------ |
 | [02a - Data collection](notebooks/02a_data_collection.ipynb) | ✅ Reviewed | 2,957 positive and 20,974 negative proteins collected. |
 | [02b - Data preparation](notebooks/02b_data_preparation.ipynb) | ✅ Reviewed | 1,102 positive and 9,082 negative representatives in four files. Training: 881 positive / 7,265 negative; benchmarking: 221 positive / 1,817 negative. Five training folds assigned. |
-| [02c - Data analysis](notebooks/02c_data_analysis.ipynb) | 🚧 In progress | Length, SP composition and taxonomy analyses completed, including frequent-species tables and observations. 13 numbered PDF figures exported. Cleavage-site logos pending. |
+| [02c - Data analysis](notebooks/02c_data_analysis.ipynb) | 🚧 In progress | Length, SP composition and taxonomy analyses completed, including frequent-species tables and observations. 15 numbered PDF figures exported, including local WebLogo cleavage-site logos for training and benchmarking with a shared axis and improved readability. Logo interpretation pending. |
 
 <details>
 <summary>Status legend</summary>
