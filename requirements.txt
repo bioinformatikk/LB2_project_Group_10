@@ -5,3 +5,4 @@ seaborn
 weblogo==3.7.12
 # WebLogo 3.7.12 uses pkg_resources.
 setuptools==80.9.0
+scikit-learn

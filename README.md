@@ -38,7 +38,7 @@ LB2_project_Group_10/
 - `data/prepared/`: representative sequences and metadata, including split and CV fold assignments.
 - `data/analysis/`: cleavage-site FASTA windows for training and benchmarking.
 - `results/figures/02c/`: exported data-analysis figures.
-- `results/figures/03/`: PSWM and validation-score PDFs, numbered by subsection and CV round.
+- `results/figures/03/`: PSWM, validation-score and precision–recall PDFs, numbered by subsection and CV round.
 - `docs/`: project notes and documentation.
 
 The plotting cells in 02c and 03 save each figure as a PDF, print its path and display it in the notebook. Rerunning a cell updates the corresponding file.
@@ -49,14 +49,14 @@ Python dependencies are listed in `requirements.txt`. Part 02b also requires the
 
 _Last updated: 6 October 2026._
 
-**Current focus: [03 - Von Heijne method](notebooks/03_von_heijne_method.ipynb).** Data loading, fold selection, matrix construction and validation scoring are completed for the first CV round, using natural logarithms. The matrix heatmap groups amino acids by chemical type and displays their weights. Both plots are saved as PDFs, with observations in the notebook. Threshold optimization and full cross-validation remain pending.
+**Current focus: [03 - Von Heijne method](notebooks/03_von_heijne_method.ipynb).** Data preparation, PSWM construction, validation scoring and threshold optimization are completed for the first CV round. Three PDF figures and observations are saved. Full five-round evaluation remains pending.
 
 | Part                                                         | Status      | Results                                                                                                |
 | ------------------------------------------------------------ | ----------- | ------------------------------------------------------------------------------------------------------ |
 | [02a - Data collection](notebooks/02a_data_collection.ipynb) | ✅ Reviewed | 2,957 positive and 20,974 negative proteins collected. |
 | [02b - Data preparation](notebooks/02b_data_preparation.ipynb) | ✅ Reviewed | 1,102 positive and 9,082 negative representatives in four files. Training: 881 positive / 7,265 negative; benchmarking: 221 positive / 1,817 negative. Five training folds assigned. |
 | [02c - Data analysis](notebooks/02c_data_analysis.ipynb) | 👀 Ready for review | Length, SP composition and taxonomy analyses completed, including frequent-species tables and observations. 16 numbered PDF figures exported, including local WebLogo cleavage-site logos for training and benchmarking with a shared axis and improved readability. Training N-terminal composition comparison completed with a 70-residue window. Observations describe shared cleavage-site preferences and upstream hydrophobic patterns in both splits. |
-| [03 - Von Heijne method](notebooks/03_von_heijne_method.ipynb) | 🚧 In progress | First round: 528 training contexts, no incomplete-context exclusions and 1,629 validation proteins scored. Natural-log PSWM, grouped heatmap with cell values, score histogram and observations completed; two PDFs saved. Threshold optimization and five-round evaluation pending. |
+| [03 - Von Heijne method](notebooks/03_von_heijne_method.ipynb) | 🚧 In progress | First round: 528 training contexts, no incomplete-context exclusions and 1,629 validation proteins scored. Natural-log PSWM, grouped heatmap with cell values, score histogram and observations completed; three PDFs saved. Validation threshold 5.834: F1 0.718, precision 0.659, recall 0.790. Five-round evaluation pending. |
 
 <details>
 <summary>Status legend</summary>
