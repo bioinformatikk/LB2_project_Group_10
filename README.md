@@ -2,7 +2,7 @@
 
 Project on signal-peptide prediction in eukaryotic proteins.
 
-The main project notebooks correspond one-to-one with the course parts and use the same identifiers. Supplementary examples use an `_example` suffix.
+The active project notebooks correspond one-to-one with the course parts and use the same identifiers. Supplementary examples use an `_example` suffix.
 
 ## Repository structure
 
@@ -12,11 +12,9 @@ LB2_project_Group_10/
 |   |-- 02a_data_collection.ipynb
 |   |-- 02b_data_preparation.ipynb
 |   |-- 02c_data_analysis.ipynb
-|   |-- 03_von_heijne_example.ipynb
 |   |-- 03_von_heijne_method.ipynb
-|   |-- 04_feature_extraction_and_selection.ipynb
+|   |-- 04_svm_method.ipynb
 |   `-- archive/
-|       `-- Untitled2.ipynb
 |-- data/
 |   |-- collected/
 |   |-- prepared/
@@ -35,7 +33,7 @@ LB2_project_Group_10/
 ```
 
 - `notebooks/`: main notebooks for each course part and supplementary worked examples.
-- `notebooks/archive/`: earlier drafts.
+- `notebooks/archive/`: archived notebooks.
 - `data/`: positive and negative datasets in TSV and FASTA formats.
 - `data/collected/`: preliminary UniProt datasets.
 - `data/prepared/`: representative sequences and metadata, including split and CV fold assignments.
@@ -51,9 +49,9 @@ Python dependencies are listed in `requirements.txt`. Part 02b also requires the
 
 ## Progress
 
-_Last updated: 7 October 2026._
+_Last updated: 12 October 2026._
 
-**Current focus: [04 - Feature extraction and selection](notebooks/04_feature_extraction_and_selection.ipynb).** Work guide prepared with consecutive tasks for five contributors, handoff interfaces and references to the course example. Implementation and execution are pending; code cells are empty. The independent benchmarking split remains reserved.
+**Current focus: [04 - SVM method](notebooks/04_svm_method.ipynb).** Draft prepared for Practical Session IV.
 
 | Part                                                         | Status      | Results                                                                                                |
 | ------------------------------------------------------------ | ----------- | ------------------------------------------------------------------------------------------------------ |
@@ -61,7 +59,7 @@ _Last updated: 7 October 2026._
 | [02b - Data preparation](notebooks/02b_data_preparation.ipynb) | ✅ Reviewed | 1,102 positive and 9,082 negative representatives in four files. Training: 881 positive / 7,265 negative; benchmarking: 221 positive / 1,817 negative. Five training folds assigned. |
 | [02c - Data analysis](notebooks/02c_data_analysis.ipynb) | 👀 Ready for review | Length, SP composition and taxonomy analyses completed, including frequent-species tables and observations. 16 numbered PDF figures exported, including local WebLogo cleavage-site logos for training and benchmarking with a shared axis and improved readability. Training N-terminal composition comparison completed with a 70-residue window. Observations describe shared cleavage-site preferences and upstream hydrophobic patterns in both splits. |
 | [03 - Von Heijne method](notebooks/03_von_heijne_method.ipynb) | 👀 Ready for review | Five-round test results (mean ± SE): MCC 0.667 ± 0.018; F1 0.703 ± 0.016; precision 0.665 ± 0.030; recall 0.751 ± 0.021; accuracy 0.931 ± 0.005. Six figures and two tables saved; observations completed. Benchmarking reserved. |
-| [04 - Feature extraction and selection](notebooks/04_feature_extraction_and_selection.ipynb) | ⏳ Pending | Work guide prepared for five contributors working in sequence: N-terminal features, RF top-k selection and nested CV with a fixed SVM. No implementation or results yet. |
+| [04 - SVM method](notebooks/04_svm_method.ipynb) | ⏳ Pending | Practical guide prepared: training-dependent composition, hydrophobicity, RF top-k and nested selection of k/C/gamma. Reporting planned as mean ± SE. No implementation or results yet. |
 
 <details>
 <summary>Status legend</summary>
