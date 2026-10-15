@@ -7,3 +7,4 @@ weblogo==3.7.12
 setuptools==80.9.0
 scikit-learn
 biopython
+tqdm

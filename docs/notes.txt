@@ -5,3 +5,7 @@ Sections 0–3 were implemented and executed. The training example produced 8,14
 
 Next: implement nested CV in sections 4–5, then reporting in section 6. The benchmarking split remains reserved.
 Feature definitions, sources and limitations: 04_feature_candidates.md.
+
+Worked example (notebook 3.5): executed on folds 1–4 for training (6,517 proteins) and fold 5 for validation (1,629 proteins), comparing all 27 parameter combinations. It demonstrates extraction, RF ranking, scaling, SVM fitting and validation metrics before the inner loop. Its scores are selection results from one split, not independent test results. Nested CV in sections 4–5 remains pending, with the benchmarking split reserved.
+
+Feature extraction and parameter search use text progress bars; Random Forest fitting prints progress messages. These ran successfully in the user-executed example.
