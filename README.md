@@ -2,7 +2,7 @@
 
 Project on signal-peptide prediction in eukaryotic proteins.
 
-The active project notebooks correspond one-to-one with the course parts and use the same identifiers. Supplementary examples use an `_example` suffix.
+The active project notebooks correspond one-to-one with the course parts and use the same identifiers. Supplementary notebooks provide worked examples and feature exploration.
 
 ## Repository structure
 
@@ -14,6 +14,7 @@ LB2_project_Group_10/
 |   |-- 02c_data_analysis.ipynb
 |   |-- 03_von_heijne_method.ipynb
 |   |-- 04_svm_method.ipynb
+|   |-- 04_feature_exploration.ipynb
 |   `-- archive/
 |-- data/
 |   |-- collected/
@@ -22,9 +23,11 @@ LB2_project_Group_10/
 |-- results/
 |   |-- figures/
 |   |   |-- 02c/
-|   |   `-- 03/
+|   |   |-- 03/
+|   |   `-- 04/
 |   `-- tables/
-|       `-- 03/
+|       |-- 03/
+|       `-- 04/
 |-- docs/
 |   |-- 04_feature_candidates.md
 |   `-- notes.txt
@@ -33,7 +36,8 @@ LB2_project_Group_10/
 `-- README.md
 ```
 
-- `notebooks/`: main notebooks for each course part and supplementary worked examples.
+- `notebooks/`: main course notebooks and supplementary examples/exploration.
+- [04 feature exploration](notebooks/04_feature_exploration.ipynb): training profiles and distributions for the 11 non-composition SVM features, with observations.
 - `notebooks/archive/`: archived notebooks.
 - `data/`: positive and negative datasets in TSV and FASTA formats.
 - `data/collected/`: preliminary UniProt datasets.
@@ -42,9 +46,10 @@ LB2_project_Group_10/
 - `results/figures/02c/`: exported data-analysis figures.
 - `results/figures/03/`: PSWM, validation-score, precision–recall and CV evaluation PDFs.
 - `results/tables/03/`: per-round CV results and metric summaries in TSV format.
+- `results/figures/04/` and `results/tables/04/`: training feature-exploration figures and descriptive summary.
 - `docs/`: project notes and documentation.
 
-The plotting cells in 02c and 03 save each figure as a PDF, print its path and display it in the notebook. Rerunning a cell updates the corresponding file.
+The plotting cells save each figure as a PDF, print its path and display it in the notebook. Rerunning a cell updates the corresponding file.
 
 Python dependencies are listed in `requirements.txt`. Part 02b also requires the MMseqs2 command-line tool. Part 02c uses local WebLogo and requires Ghostscript for PDF and PNG output; its setup cell includes the Conda installation command.
 
@@ -52,7 +57,7 @@ Python dependencies are listed in `requirements.txt`. Part 02b also requires the
 
 _Last updated: 15 October 2026._
 
-**Current focus: [04 - SVM method](notebooks/04_svm_method.ipynb).** Worked example added; nested CV is next.
+**Current focus: [04 - SVM method](notebooks/04_svm_method.ipynb).** Feature exploration completed; nested CV is next.
 
 | Part                                                         | Status      | Results                                                                                                |
 | ------------------------------------------------------------ | ----------- | ------------------------------------------------------------------------------------------------------ |
@@ -60,7 +65,7 @@ _Last updated: 15 October 2026._
 | [02b - Data preparation](notebooks/02b_data_preparation.ipynb) | ✅ Reviewed | 1,102 positive and 9,082 negative representatives in four files. Training: 881 positive / 7,265 negative; benchmarking: 221 positive / 1,817 negative. Five training folds assigned. |
 | [02c - Data analysis](notebooks/02c_data_analysis.ipynb) | 👀 Ready for review | Length, SP composition and taxonomy analyses completed, including frequent-species tables and observations. 16 numbered PDF figures exported, including local WebLogo cleavage-site logos for training and benchmarking with a shared axis and improved readability. Training N-terminal composition comparison completed with a 70-residue window. Observations describe shared cleavage-site preferences and upstream hydrophobic patterns in both splits. |
 | [03 - Von Heijne method](notebooks/03_von_heijne_method.ipynb) | 👀 Ready for review | Five-round test results (mean ± SE): MCC 0.667 ± 0.018; F1 0.703 ± 0.016; precision 0.665 ± 0.030; recall 0.751 ± 0.021; accuracy 0.931 ± 0.005. Six figures and two tables saved; observations completed. Benchmarking reserved. |
-| [04 - SVM method](notebooks/04_svm_method.ipynb) | 🚧 In progress | Data preparation, extraction of 31 features and RF/SVM helpers completed. Training extraction: 8,146 proteins, no missing feature values. Single-split example executed. Nested CV pending; benchmarking reserved. |
+| [04 - SVM method](notebooks/04_svm_method.ipynb) | 🚧 In progress | Data preparation, extraction of 31 features and RF/SVM helpers completed. Training extraction: 8,146 proteins, no missing feature values. Single-split example executed. Supplementary exploration completed with three figures, a summary table and observations, including comparison with the example RF ranking. Nested CV pending; benchmarking reserved. |
 
 <details>
 <summary>Status legend</summary>

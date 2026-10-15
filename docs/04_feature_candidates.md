@@ -8,6 +8,8 @@ The hydropathy descriptors reuse the Kyte–Doolittle (KD) profile over the firs
 
 Both scale profiles preserve unknown positions and average known residues inside each original window, following the policy in notebook section 1.2. Missing windows are omitted from the summaries. An empty or entirely missing profile gives NaN for both summaries. All means are over window values, rather than raw residue values.
 
+The [supplementary exploration](../notebooks/04_feature_exploration.ipynb) covers the profiles and class distributions of these 11 non-composition feature columns. It includes the generated figures and observations. It retains the existing definitions and uses training proteins only.
+
 ## Features
 
 ### 1. N-terminal charge balance
