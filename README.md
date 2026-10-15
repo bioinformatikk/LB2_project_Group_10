@@ -26,6 +26,7 @@ LB2_project_Group_10/
 |   `-- tables/
 |       `-- 03/
 |-- docs/
+|   |-- 04_feature_candidates.md
 |   `-- notes.txt
 |-- .gitignore
 |-- requirements.txt
@@ -51,7 +52,7 @@ Python dependencies are listed in `requirements.txt`. Part 02b also requires the
 
 _Last updated: 15 October 2026._
 
-**Current focus: [04 - SVM method](notebooks/04_svm_method.ipynb).** RF and SVM helpers completed; nested CV is next.
+**Current focus: [04 - SVM method](notebooks/04_svm_method.ipynb).** Feature extraction completed; nested CV is next.
 
 | Part                                                         | Status      | Results                                                                                                |
 | ------------------------------------------------------------ | ----------- | ------------------------------------------------------------------------------------------------------ |
@@ -59,7 +60,7 @@ _Last updated: 15 October 2026._
 | [02b - Data preparation](notebooks/02b_data_preparation.ipynb) | ✅ Reviewed | 1,102 positive and 9,082 negative representatives in four files. Training: 881 positive / 7,265 negative; benchmarking: 221 positive / 1,817 negative. Five training folds assigned. |
 | [02c - Data analysis](notebooks/02c_data_analysis.ipynb) | 👀 Ready for review | Length, SP composition and taxonomy analyses completed, including frequent-species tables and observations. 16 numbered PDF figures exported, including local WebLogo cleavage-site logos for training and benchmarking with a shared axis and improved readability. Training N-terminal composition comparison completed with a 70-residue window. Observations describe shared cleavage-site preferences and upstream hydrophobic patterns in both splits. |
 | [03 - Von Heijne method](notebooks/03_von_heijne_method.ipynb) | 👀 Ready for review | Five-round test results (mean ± SE): MCC 0.667 ± 0.018; F1 0.703 ± 0.016; precision 0.665 ± 0.030; recall 0.751 ± 0.021; accuracy 0.931 ± 0.005. Six figures and two tables saved; observations completed. Benchmarking reserved. |
-| [04 - SVM method](notebooks/04_svm_method.ipynb) | 🚧 In progress | Data preparation, feature extraction (22 features) and RF/SVM helpers completed. Nested CV pending; benchmarking reserved. |
+| [04 - SVM method](notebooks/04_svm_method.ipynb) | 🚧 In progress | Data preparation, extraction of 31 features and RF/SVM helpers completed. Training example: 8,146 proteins, no missing feature values. Nested CV pending; benchmarking reserved. |
 
 <details>
 <summary>Status legend</summary>

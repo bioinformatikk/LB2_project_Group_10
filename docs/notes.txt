@@ -1,1 +1,7 @@
-Place for storing project related documents.
+Project notes
+
+04 - SVM method (15 October 2026)
+Sections 0–3 were implemented and executed. The training example produced 8,146 rows and 31 feature columns, with no missing values. The initial grid contains 27 combinations, with k = 8, 16 and 31.
+
+Next: implement nested CV in sections 4–5, then reporting in section 6. The benchmarking split remains reserved.
+Feature definitions, sources and limitations: 04_feature_candidates.md.
