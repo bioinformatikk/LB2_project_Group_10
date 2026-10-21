@@ -2,7 +2,7 @@
 
 ## Scope
 
-We extended the course's 20 composition features and two hydropathy summaries with nine sequence-only descriptors, giving 31 features in [notebook section 2](../notebooks/04_svm_method.ipynb). The group executed the complete extractor on 8,146 training proteins and obtained 31 columns with no missing values. Classifier evaluation by CV remains pending.
+We extended the course's 20 composition features and two hydropathy summaries with nine sequence-only descriptors, giving 31 features in [notebook section 2](../notebooks/04_svm_method.ipynb). The group executed the complete extractor on 8,146 training proteins and obtained 31 columns with no missing values. Five outer CV rounds were completed; result reporting is in progress.
 
 The hydropathy descriptors reuse the Kyte–Doolittle (KD) profile over the first 40 residues, with complete windows of 5 positions. We listed the slide-proposed categories first (charge and the two propensity scales), followed by our four additional sequence descriptors. All specific implementations were documented with their sources. The definitions below follow their order in the extractor.
 

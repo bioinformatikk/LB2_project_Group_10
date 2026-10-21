@@ -1,0 +1,23 @@
+feature	definition	region	scale	window	aggregation	unit
+aa_fraction_A	Fraction of the canonical residues that are A	first n residues (n estimated from the training positives)	none (residue counts)		fraction	fraction of canonical residues
+aa_fraction_C	Fraction of the canonical residues that are C	first n residues (n estimated from the training positives)	none (residue counts)		fraction	fraction of canonical residues
+aa_fraction_D	Fraction of the canonical residues that are D	first n residues (n estimated from the training positives)	none (residue counts)		fraction	fraction of canonical residues
+aa_fraction_E	Fraction of the canonical residues that are E	first n residues (n estimated from the training positives)	none (residue counts)		fraction	fraction of canonical residues
+aa_fraction_F	Fraction of the canonical residues that are F	first n residues (n estimated from the training positives)	none (residue counts)		fraction	fraction of canonical residues
+aa_fraction_G	Fraction of the canonical residues that are G	first n residues (n estimated from the training positives)	none (residue counts)		fraction	fraction of canonical residues
+aa_fraction_H	Fraction of the canonical residues that are H	first n residues (n estimated from the training positives)	none (residue counts)		fraction	fraction of canonical residues
+aa_fraction_I	Fraction of the canonical residues that are I	first n residues (n estimated from the training positives)	none (residue counts)		fraction	fraction of canonical residues
+aa_fraction_K	Fraction of the canonical residues that are K	first n residues (n estimated from the training positives)	none (residue counts)		fraction	fraction of canonical residues
+aa_fraction_L	Fraction of the canonical residues that are L	first n residues (n estimated from the training positives)	none (residue counts)		fraction	fraction of canonical residues
+aa_fraction_M	Fraction of the canonical residues that are M	first n residues (n estimated from the training positives)	none (residue counts)		fraction	fraction of canonical residues
+aa_fraction_N	Fraction of the canonical residues that are N	first n residues (n estimated from the training positives)	none (residue counts)		fraction	fraction of canonical residues
+aa_fraction_P	Fraction of the canonical residues that are P	first n residues (n estimated from the training positives)	none (residue counts)		fraction	fraction of canonical residues
+aa_fraction_Q	Fraction of the canonical residues that are Q	first n residues (n estimated from the training positives)	none (residue counts)		fraction	fraction of canonical residues
+aa_fraction_R	Fraction of the canonical residues that are R	first n residues (n estimated from the training positives)	none (residue counts)		fraction	fraction of canonical residues
+aa_fraction_S	Fraction of the canonical residues that are S	first n residues (n estimated from the training positives)	none (residue counts)		fraction	fraction of canonical residues
+aa_fraction_T	Fraction of the canonical residues that are T	first n residues (n estimated from the training positives)	none (residue counts)		fraction	fraction of canonical residues
+aa_fraction_V	Fraction of the canonical residues that are V	first n residues (n estimated from the training positives)	none (residue counts)		fraction	fraction of canonical residues
+aa_fraction_W	Fraction of the canonical residues that are W	first n residues (n estimated from the training positives)	none (residue counts)		fraction	fraction of canonical residues
+aa_fraction_Y	Fraction of the canonical residues that are Y	first n residues (n estimated from the training positives)	none (residue counts)		fraction	fraction of canonical residues
+hydropathy_max_w5	Maximum of the Kyte-Doolittle window profile	first 40 residues (fixed)	Kyte-Doolittle	5	maximum	hydropathy index
+hydropathy_profile_mean_w5	Mean of the Kyte-Doolittle window profile	first 40 residues (fixed)	Kyte-Doolittle	5	mean	hydropathy index

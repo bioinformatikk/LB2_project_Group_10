@@ -1,13 +1,35 @@
 Project notes
 
-04 - SVM method (15 October 2026)
-Sections 0–3 were implemented and executed. The training example produced 8,146 rows and 31 feature columns, with no missing values. The initial grid contains 27 combinations, with k = 8, 16 and 31.
+04 - SVM method (20 October 2026)
+Sections 0–5 were implemented and executed; the five outer rounds recorded 8,146 predictions. The training example produced 8,146 rows and 31 feature columns, with no missing values. The initial grid contains 27 combinations, with k = 8, 16 and 31.
 
-Next: implement nested CV in sections 4–5, then reporting in section 6. The benchmarking split remains reserved.
+Next: final review of the fixed-grid evaluation and observations. The benchmarking split remains reserved.
 Feature definitions, sources and limitations: 04_feature_candidates.md.
 
-Worked example (notebook 3.5): executed on folds 1–4 for training (6,517 proteins) and fold 5 for validation (1,629 proteins), comparing all 27 parameter combinations. It demonstrates extraction, RF ranking, scaling, SVM fitting and validation metrics before the inner loop. Its scores are selection results from one split, not independent test results. Nested CV in sections 4–5 remains pending, with the benchmarking split reserved.
+Worked example (notebook 3.5): executed on folds 1–4 for training (6,517 proteins) and fold 5 for validation (1,629 proteins), comparing all 27 parameter combinations. It demonstrates extraction, RF ranking, scaling, SVM fitting and validation metrics before the inner loop. Its scores are selection results from one split, not independent test results. Five nested CV outer rounds and reporting were completed, with the benchmarking split reserved.
 
 Feature extraction and parameter search use text progress bars; Random Forest fitting prints progress messages. These ran successfully in the user-executed example.
 
 Supplementary 04_feature_exploration.ipynb: user-executed training-only profiles and distributions of all 11 non-composition features, with three PDF figures and a descriptive TSV summary. Composition refers to 02c section 5 rather than repeating its first-70 pooled analysis. The supplement retains the SVM definitions and includes no fitting or parameter selection. Observations were added after each figure and in an overall discussion, and compared with the saved RF ranking in SVM section 3.5. The clearest differences involved hydrophobicity, TM tendency and hydrophobic extent; observations now distinguish class-related information from added predictive value or RF rank. Motif support scored 1 in about 91.9% of positives and 65.6% of negatives. Interpretation includes A/G/S zeros for unavailable post-peak regions, variable motif search length and weaker alpha-helix separation. Feature definitions were retained. Expanded statistics (sample standard deviation, quartiles and extremes) are available in the TSV; the displayed output in 1.7 still needs refreshing.
+
+Feature-table cache (2.8): tables for n = 20, 21, 22 and 23 were generated and verified previously. The helper now loads or creates the requested n on demand, with no fixed list. It checks memory, then the matching TSV; if missing, it reuses fixed-region descriptors from another available table and recalculates composition, or runs the full extractor if no table exists. New files cover all training proteins and are saved under results/tables/04/feature_cache/. Each split still derives n from its own training positives and fits RF/scaler/SVM on its own subset. Dynamic version pending user execution; existing results and files preserved. Clear disk and memory caches after changes to sequences or feature definitions.
+
+Reporting (6.1): mean, sample standard deviation (ddof = 1) and standard error across the five outer rounds, matching 03. The user exported all three TSV files. Coverage was checked: 8,146 unique training accessions, matching labels and saved folds, no benchmarking accessions. All per-fold metrics and the summary were recomputed from the saved predictions and matched.
+
+Feature records (6.2): selected settings and top-five feature previews added, with export of the complete selected-feature records, inner-search scores and catalog. User-executed: 155 selected-feature records, 864 inner scores and 31 catalog entries were exported and checked.
+
+Metric figure (6.3): user-executed and saved as results/figures/04/6_3_cv_metrics.pdf, with individual outer folds and mean ± SE. Observations (6.4) summarize detection, parameter variation and consistent RF rankings, and compare descriptively with 03 while noting the different training protocols. Those observations described the earlier expanded-grid run and were replaced by a pending fixed-grid discussion.
+
+Professor feedback: restricted all searches to the original 27 candidates (k 8/16/31, C 1/4/16, gamma factors 0.5/1/2). Removed manual and automatic extensions. Heatmaps now stack vertically with larger panels. Cleared affected notebook outputs from 4.3 onward; existing exported CV files remain from the previous expanded search until regenerated. Rerun 2.8 to load the dynamic cache helper, then 4.2 through 6.3 in order; rewrite 6.4 from the new results. No model execution by the assistant.
+
+Complete evaluation (5.3): every execution now resets all four result tables and runs folds 1–5, including fold 1 even if the earlier single-round example was executed. No completed-fold skipping or reuse of its inner scores. Sequence feature caches remain reusable.
+
+Latest fixed-grid execution: five rounds, 540 inner-score records (108 per round), 8,146 unique predictions. Mean ± SE: MCC 0.858 ± 0.010; F1 0.873 ± 0.009; precision 0.882 ± 0.015; recall 0.865 ± 0.018; accuracy 0.973 ± 0.002. These replace the expanded-grid results above. All outer refits n22/k31; C4/factor0.5 for folds1–3, C1/factor1 for folds4–5. Conclusions updated in 6.4. Progress simplified: RF logs and repeated prints removed, temporary inner bars plus one completed-fold summary retained. Existing saved outputs preserved; cleaner output will appear on the next run, with no rerun needed for conclusions.
+
+21 October 2026: main 04 now includes the same reporting figures as the experiments: 6.4 RF mean importances, individual fits and rank heatmap; 6.5 pooled confusion counts and within-class percentages. Both cells read the existing main 04 TSVs and save PDFs under results/figures/04/. Pending execution; no model rerun needed. Final observations moved to 6.6. Existing code, outputs and results retained.
+
+21 October 2026: four-notebook review found no methodological corrections or need to repeat training. Executed plot/cache statuses and experiment covers were updated; repeated RF interpretation text was shortened in conclusions. Main 04 is Ready for review; professor approval remains unconfirmed. Experiments remain outside README.
+
+21 October 2026: following the 20 October discussion, reporting in all four SVM notebooks now places MCC first, then F1, precision, recall and accuracy. Conclusions explicitly distinguish evaluating the full nested procedure from selecting the final production model. Rerun only 6.1 and 6.3 to refresh the tables and metric figure; training results are unchanged.
+
+21 October 2026: the user refreshed 6.1 and 6.3 in all four SVM notebooks. Verified MCC-first order in exported tables and metric PDFs; per-fold metrics, means and SE matched the saved predictions, with the same 8,146 unique accessions per run. All code cells have saved execution and no errors. No further corrections or model reruns are needed. README and local context prepared for the user’s push; final production-model selection remains a separate stage.
