@@ -33,3 +33,5 @@ Latest fixed-grid execution: five rounds, 540 inner-score records (108 per round
 21 October 2026: following the 20 October discussion, reporting in all four SVM notebooks now places MCC first, then F1, precision, recall and accuracy. Conclusions explicitly distinguish evaluating the full nested procedure from selecting the final production model. Rerun only 6.1 and 6.3 to refresh the tables and metric figure; training results are unchanged.
 
 21 October 2026: the user refreshed 6.1 and 6.3 in all four SVM notebooks. Verified MCC-first order in exported tables and metric PDFs; per-fold metrics, means and SE matched the saved predictions, with the same 8,146 unique accessions per run. All code cells have saved execution and no errors. No further corrections or model reruns are needed. README and local context prepared for the user’s push; final production-model selection remains a separate stage.
+
+21 October 2026: removed the original Person 1–5 work-allocation text from the completed SVM notebook and remaining person references in the experiments. The scientific workflow and shared object interfaces were retained; code and saved results were unchanged.
