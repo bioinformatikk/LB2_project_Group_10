@@ -15,6 +15,7 @@ LB2_project_Group_10/
 |   |-- 03_von_heijne_method.ipynb
 |   |-- 04_svm_method.ipynb
 |   |-- 04_feature_exploration.ipynb
+|   |-- 05_benchmarking_and_analysis.ipynb
 |   |-- experiments/
 |   |   |-- 04_svm_22/
 |   |   |-- 04_svm_23_pswm/
@@ -41,6 +42,7 @@ LB2_project_Group_10/
 ```
 
 - `notebooks/`: main course notebooks and supplementary examples/exploration.
+- [05 benchmarking and analysis](notebooks/05_benchmarking_and_analysis.ipynb): work guide for final-model training, independent evaluation and error analysis; code cells remain empty.
 - [04 feature exploration](notebooks/04_feature_exploration.ipynb): training profiles and distributions for the 11 non-composition SVM features, with observations.
 - `notebooks/experiments/`: SVM variants, each with its own notebook, feature cache, tables and figures.
 - `notebooks/archive/`: archived notebooks.
@@ -72,7 +74,7 @@ The variants use the same five training folds and fixed 27-candidate search, wit
 
 _Last updated: 21 October 2026._
 
-**Current focus: [04 - SVM method](notebooks/04_svm_method.ipynb).** Evaluation and reporting completed.
+**Current focus: [05 - Benchmarking and analysis of results](notebooks/05_benchmarking_and_analysis.ipynb).** Work guide prepared and internally reviewed; implementation and execution pending.
 
 | Part                                                         | Status      | Results                                                                                                |
 | ------------------------------------------------------------ | ----------- | ------------------------------------------------------------------------------------------------------ |
@@ -81,6 +83,7 @@ _Last updated: 21 October 2026._
 | [02c - Data analysis](notebooks/02c_data_analysis.ipynb) | ✅ Reviewed | Length, SP composition and taxonomy analyses completed, including frequent-species tables and observations. 16 numbered PDF figures exported, including local WebLogo cleavage-site logos for training and benchmarking with a shared axis and improved readability. Training N-terminal composition comparison completed with a 70-residue window. Observations describe shared cleavage-site preferences and upstream hydrophobic patterns in both splits. |
 | [03 - Von Heijne method](notebooks/03_von_heijne_method.ipynb) | ✅ Reviewed | Five-round test results (mean ± SE): MCC 0.667 ± 0.018; F1 0.703 ± 0.016; precision 0.665 ± 0.030; recall 0.751 ± 0.021; accuracy 0.931 ± 0.005. Six figures and two tables saved; observations completed. Benchmarking reserved. |
 | [04 - SVM method](notebooks/04_svm_method.ipynb) | 👀 Ready for review | Five outer rounds with 31 features and the fixed 27-candidate grid: MCC 0.858 ± 0.010; F1 0.873 ± 0.009 (mean ± SE). All 8,146 training proteins predicted once. Four figures and six result tables saved; observations completed. Benchmarking reserved. |
+| [05 - Benchmarking and analysis of results](notebooks/05_benchmarking_and_analysis.ipynb) | 🚧 In progress | Guide internally reviewed; code cells remain empty. Final von Heijne and 31-feature SVM training, exports, benchmarking evaluation and error analysis remain pending. |
 
 <details>
 <summary>Status legend</summary>
