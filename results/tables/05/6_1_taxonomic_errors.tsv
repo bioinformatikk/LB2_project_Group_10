@@ -1,0 +1,303 @@
+level	model	kingdom	organism	N_negative	N_positive	FP	FN	FP_rate	FN_rate
+kingdom	Von Heijne	Fungi		495	23	5	6	0.010101010101010102	0.2608695652173913
+kingdom	Von Heijne	Metazoa		927	166	46	51	0.04962243797195254	0.3072289156626506
+kingdom	Von Heijne	Other		41	5	2	1	0.04878048780487805	0.2
+kingdom	Von Heijne	Viridiplantae		354	27	16	7	0.04519774011299435	0.25925925925925924
+kingdom	SVM	Fungi		495	23	2	5	0.00404040404040404	0.21739130434782608
+kingdom	SVM	Metazoa		927	166	20	16	0.021574973031283712	0.0963855421686747
+kingdom	SVM	Other		41	5	1	1	0.024390243902439025	0.2
+kingdom	SVM	Viridiplantae		354	27	3	3	0.00847457627118644	0.1111111111111111
+organism	Von Heijne	Fungi	Arthrobotrys flagrans	1	0	0	0	0.0	
+organism	Von Heijne	Fungi	Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 101355 / FGSC A1100 / Af293)	1	0	0	0	0.0	
+organism	Von Heijne	Fungi	Aspergillus fumigatus (strain CBS 144.89 / FGSC A1163 / CEA10)	0	1	0	0		0.0
+organism	Von Heijne	Fungi	Aspergillus kawachii (strain NBRC 4308)	0	2	0	0		0.0
+organism	Von Heijne	Fungi	Aspergillus niger	0	1	0	1		1.0
+organism	Von Heijne	Fungi	Aspergillus oryzae (strain ATCC 42149 / RIB 40)	0	2	0	1		0.5
+organism	Von Heijne	Fungi	Aspergillus restrictus	0	1	0	0		0.0
+organism	Von Heijne	Fungi	Candida albicans	1	0	0	0	0.0	
+organism	Von Heijne	Fungi	Candida albicans (strain SC5314 / ATCC MYA-2876)	5	0	0	0	0.0	
+organism	Von Heijne	Fungi	Candida parapsilosis (strain CDC 317 / ATCC MYA-4646)	1	0	0	0	0.0	
+organism	Von Heijne	Fungi	Candidozyma auris	1	0	0	0	0.0	
+organism	Von Heijne	Fungi	Ceratocystis fimbriata f. sp. platani	0	1	0	1		1.0
+organism	Von Heijne	Fungi	Colletotrichum lindemuthianum	0	1	0	0		0.0
+organism	Von Heijne	Fungi	Cryptococcus neoformans (strain H99 / ATCC 208821 / CBS 10515 / FGSC 9487)	2	0	0	0	0.0	
+organism	Von Heijne	Fungi	Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139)	6	2	1	0	0.16666666666666666	0.0
+organism	Von Heijne	Fungi	Encephalitozoon cuniculi (strain GB-M1)	0	1	0	1		1.0
+organism	Von Heijne	Fungi	Fusarium solani subsp. phaseoli	0	1	0	0		0.0
+organism	Von Heijne	Fungi	Komagataella pastoris	1	0	0	0	0.0	
+organism	Von Heijne	Fungi	Metarhizium robertsii (strain ARSEF 23 / ATCC MYA-3075)	2	0	0	0	0.0	
+organism	Von Heijne	Fungi	Mycosarcoma maydis	2	0	0	0	0.0	
+organism	Von Heijne	Fungi	Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987)	9	0	0	0	0.0	
+organism	Von Heijne	Fungi	Nosema bombycis (strain CQ1 / CVCC 102059)	0	1	0	1		1.0
+organism	Von Heijne	Fungi	Penicillium expansum	2	0	0	0	0.0	
+organism	Von Heijne	Fungi	Penicillium rubens (strain ATCC 28089 / DSM 1075 / NRRL 1951 / Wisconsin 54-1255)	3	0	0	0	0.0	
+organism	Von Heijne	Fungi	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	321	3	4	0	0.012461059190031152	0.0
+organism	Von Heijne	Fungi	Schizosaccharomyces pombe (strain 972 / ATCC 24843)	135	2	0	0	0.0	0.0
+organism	Von Heijne	Fungi	Talaromyces funiculosus	0	1	0	0		0.0
+organism	Von Heijne	Fungi	Trametes coccinea (strain BRFM310)	0	1	0	0		0.0
+organism	Von Heijne	Fungi	Trichoderma reesei	0	1	0	1		1.0
+organism	Von Heijne	Fungi	Typhula ishikariensis	0	1	0	0		0.0
+organism	Von Heijne	Fungi	Yarrowia lipolytica (strain CLIB 122 / E 150)	2	0	0	0	0.0	
+organism	Von Heijne	Metazoa	Acanthaster planci	0	1	0	1		1.0
+organism	Von Heijne	Metazoa	Acanthoscurria gomesiana	0	1	0	0		0.0
+organism	Von Heijne	Metazoa	Aedes aegypti	0	1	0	0		0.0
+organism	Von Heijne	Metazoa	Aedes albopictus	0	1	0	0		0.0
+organism	Von Heijne	Metazoa	Ampulex compressa	0	1	0	1		1.0
+organism	Von Heijne	Metazoa	Anguilla anguilla	0	1	0	0		0.0
+organism	Von Heijne	Metazoa	Anopheles gambiae	0	1	0	0		0.0
+organism	Von Heijne	Metazoa	Apis mellifera	0	2	0	1		0.5
+organism	Von Heijne	Metazoa	Aplysia californica	0	1	0	1		1.0
+organism	Von Heijne	Metazoa	Bombyx mori	1	1	0	0	0.0	0.0
+organism	Von Heijne	Metazoa	Bos taurus	14	7	0	2	0.0	0.2857142857142857
+organism	Von Heijne	Metazoa	Caenorhabditis elegans	58	0	1	0	0.017241379310344827	
+organism	Von Heijne	Metazoa	Cavia porcellus	1	1	0	0	0.0	0.0
+organism	Von Heijne	Metazoa	Chironomus thummi thummi	0	1	0	0		0.0
+organism	Von Heijne	Metazoa	Conus purpurascens	0	1	0	0		0.0
+organism	Von Heijne	Metazoa	Conus virgo	0	1	0	1		1.0
+organism	Von Heijne	Metazoa	Cotesia rubecula	0	1	0	1		1.0
+organism	Von Heijne	Metazoa	Coturnix japonica	0	1	0	0		0.0
+organism	Von Heijne	Metazoa	Danio rerio	1	0	0	0	0.0	
+organism	Von Heijne	Metazoa	Doratifera vulnerans	0	1	0	0		0.0
+organism	Von Heijne	Metazoa	Drosophila melanogaster	65	4	1	2	0.015384615384615385	0.5
+organism	Von Heijne	Metazoa	Eratigena agrestis	0	1	0	1		1.0
+organism	Von Heijne	Metazoa	Galleria mellonella	0	1	0	0		0.0
+organism	Von Heijne	Metazoa	Gallus gallus	2	4	1	1	0.5	0.25
+organism	Von Heijne	Metazoa	Gastrophysa atrocyanea	0	1	0	0		0.0
+organism	Von Heijne	Metazoa	Gloydius blomhoffii	0	1	0	0		0.0
+organism	Von Heijne	Metazoa	Holotrichia diomphalia	0	1	0	1		1.0
+organism	Von Heijne	Metazoa	Homo sapiens	490	63	23	18	0.04693877551020408	0.2857142857142857
+organism	Von Heijne	Metazoa	Hyalophora cecropia	0	1	0	0		0.0
+organism	Von Heijne	Metazoa	Hyas araneus	0	1	0	0		0.0
+organism	Von Heijne	Metazoa	Limulus polyphemus	0	1	0	0		0.0
+organism	Von Heijne	Metazoa	Manduca sexta	0	2	0	2		1.0
+organism	Von Heijne	Metazoa	Megabalanus rosa	0	1	0	0		0.0
+organism	Von Heijne	Metazoa	Monoplex parthenopeus	0	1	0	0		0.0
+organism	Von Heijne	Metazoa	Mus musculus	222	14	17	3	0.07657657657657657	0.21428571428571427
+organism	Von Heijne	Metazoa	Octopus vulgaris	1	0	0	0	0.0	
+organism	Von Heijne	Metazoa	Olivierus martensii	0	1	0	1		1.0
+organism	Von Heijne	Metazoa	Ophiophagus hannah	0	3	0	2		0.6666666666666666
+organism	Von Heijne	Metazoa	Oreochromis mossambicus	0	1	0	1		1.0
+organism	Von Heijne	Metazoa	Oryctolagus cuniculus	2	4	0	2	0.0	0.5
+organism	Von Heijne	Metazoa	Ovis aries	0	1	0	0		0.0
+organism	Von Heijne	Metazoa	Pan troglodytes	1	0	0	0	0.0	
+organism	Von Heijne	Metazoa	Paralithodes camtschaticus	0	1	0	0		0.0
+organism	Von Heijne	Metazoa	Penaeus merguiensis	0	1	0	0		0.0
+organism	Von Heijne	Metazoa	Phlebotomus duboscqi	0	1	0	0		0.0
+organism	Von Heijne	Metazoa	Pimpla hypochondriaca	0	1	0	1		1.0
+organism	Von Heijne	Metazoa	Pinctada fucata	0	1	0	0		0.0
+organism	Von Heijne	Metazoa	Pomacea canaliculata	0	1	0	0		0.0
+organism	Von Heijne	Metazoa	Protophormia terraenovae	0	1	0	0		0.0
+organism	Von Heijne	Metazoa	Pseudopleuronectes americanus	0	1	0	1		1.0
+organism	Von Heijne	Metazoa	Rattus norvegicus	55	15	3	2	0.05454545454545454	0.13333333333333333
+organism	Von Heijne	Metazoa	Rhipicephalus sanguineus	0	1	0	1		1.0
+organism	Von Heijne	Metazoa	Rhodnius prolixus	0	1	0	1		1.0
+organism	Von Heijne	Metazoa	Salmo salar	0	1	0	0		0.0
+organism	Von Heijne	Metazoa	Schistosoma mansoni	1	0	0	0	0.0	
+organism	Von Heijne	Metazoa	Scolopendra mutilans	0	2	0	1		0.5
+organism	Von Heijne	Metazoa	Scyliorhinus canicula	2	0	0	0	0.0	
+organism	Von Heijne	Metazoa	Scylla serrata	0	1	0	0		0.0
+organism	Von Heijne	Metazoa	Sus scrofa	2	3	0	0	0.0	0.0
+organism	Von Heijne	Metazoa	Tachypleus tridentatus	0	1	0	1		1.0
+organism	Von Heijne	Metazoa	Vespula pensylvanica	0	1	0	1		1.0
+organism	Von Heijne	Metazoa	Xenopus laevis	9	0	0	0	0.0	
+organism	Von Heijne	Other	Badhamia polycephala	1	0	0	0	0.0	
+organism	Von Heijne	Other	Crithidia fasciculata	1	0	0	0	0.0	
+organism	Von Heijne	Other	Cyanidium caldarium	0	1	0	0		0.0
+organism	Von Heijne	Other	Dictyostelium discoideum	17	2	1	0	0.058823529411764705	0.0
+organism	Von Heijne	Other	Euglena gracilis	1	0	1	0	1.0	
+organism	Von Heijne	Other	Galdieria sulphuraria	1	0	0	0	0.0	
+organism	Von Heijne	Other	Hematodinium sp	1	0	0	0	0.0	
+organism	Von Heijne	Other	Leishmania infantum	1	0	0	0	0.0	
+organism	Von Heijne	Other	Leishmania major	1	0	0	0	0.0	
+organism	Von Heijne	Other	Phytophthora cryptogea	0	1	0	0		0.0
+organism	Von Heijne	Other	Plasmodium berghei (strain Anka)	2	0	0	0	0.0	
+organism	Von Heijne	Other	Plasmodium falciparum (isolate 3D7)	5	0	0	0	0.0	
+organism	Von Heijne	Other	Plasmodium falciparum (isolate NF54)	1	0	0	0	0.0	
+organism	Von Heijne	Other	Rhodomonas sp. (strain CS 24)	1	0	0	0	0.0	
+organism	Von Heijne	Other	Sterkiella nova	1	0	0	0	0.0	
+organism	Von Heijne	Other	Tetrahymena thermophila (strain SB210)	1	0	0	0	0.0	
+organism	Von Heijne	Other	Toxoplasma gondii (strain ATCC 50611 / Me49)	1	0	0	0	0.0	
+organism	Von Heijne	Other	Trypanosoma brucei brucei	2	1	0	1	0.0	1.0
+organism	Von Heijne	Other	Trypanosoma brucei brucei (strain 927/4 GUTat10.1)	3	0	0	0	0.0	
+organism	Von Heijne	Viridiplantae	Actinidia chinensis var. chinensis	0	1	0	0		0.0
+organism	Von Heijne	Viridiplantae	Arabidopsis thaliana	286	2	8	0	0.027972027972027972	0.0
+organism	Von Heijne	Viridiplantae	Avena sativa	0	2	0	0		0.0
+organism	Von Heijne	Viridiplantae	Catharanthus roseus	2	0	0	0	0.0	
+organism	Von Heijne	Viridiplantae	Chamaecyparis obtusa	0	1	0	0		0.0
+organism	Von Heijne	Viridiplantae	Chlamydomonas reinhardtii	7	0	3	0	0.42857142857142855	
+organism	Von Heijne	Viridiplantae	Coffea arabica	0	1	0	1		1.0
+organism	Von Heijne	Viridiplantae	Colocasia esculenta	1	0	0	0	0.0	
+organism	Von Heijne	Viridiplantae	Crocus sativus	1	0	0	0	0.0	
+organism	Von Heijne	Viridiplantae	Cucumis sativus	1	0	0	0	0.0	
+organism	Von Heijne	Viridiplantae	Cucurbita maxima	0	1	0	0		0.0
+organism	Von Heijne	Viridiplantae	Daucus carota	0	1	0	1		1.0
+organism	Von Heijne	Viridiplantae	Dunaliella salina	1	0	0	0	0.0	
+organism	Von Heijne	Viridiplantae	Glycine max	1	1	0	0	0.0	0.0
+organism	Von Heijne	Viridiplantae	Heliotropium indicum	0	1	0	1		1.0
+organism	Von Heijne	Viridiplantae	Hordeum vulgare	0	2	0	0		0.0
+organism	Von Heijne	Viridiplantae	Juglans nigra	0	1	0	0		0.0
+organism	Von Heijne	Viridiplantae	Juniperus virginiana	0	1	0	0		0.0
+organism	Von Heijne	Viridiplantae	Marchantia polymorpha	1	0	0	0	0.0	
+organism	Von Heijne	Viridiplantae	Mirabilis jalapa	0	1	0	1		1.0
+organism	Von Heijne	Viridiplantae	Momordica charantia	0	1	0	1		1.0
+organism	Von Heijne	Viridiplantae	Nicotiana tabacum	5	0	0	0	0.0	
+organism	Von Heijne	Viridiplantae	Oryza sativa subsp. japonica	24	1	4	0	0.16666666666666666	0.0
+organism	Von Heijne	Viridiplantae	Papaver rhoeas	0	1	0	1		1.0
+organism	Von Heijne	Viridiplantae	Petunia hybrida	1	0	0	0	0.0	
+organism	Von Heijne	Viridiplantae	Pisum sativum	3	1	0	0	0.0	0.0
+organism	Von Heijne	Viridiplantae	Populus euphratica	1	0	0	0	0.0	
+organism	Von Heijne	Viridiplantae	Pyrus pyrifolia	0	1	0	0		0.0
+organism	Von Heijne	Viridiplantae	Raphanus sativus	0	1	0	1		1.0
+organism	Von Heijne	Viridiplantae	Scutellaria baicalensis	0	1	0	0		0.0
+organism	Von Heijne	Viridiplantae	Solanum lycopersicum	0	1	0	0		0.0
+organism	Von Heijne	Viridiplantae	Solanum tuberosum	3	1	0	0	0.0	0.0
+organism	Von Heijne	Viridiplantae	Spinacia oleracea	13	0	1	0	0.07692307692307693	
+organism	Von Heijne	Viridiplantae	Viscum album	0	1	0	0		0.0
+organism	Von Heijne	Viridiplantae	Zea mays	3	1	0	0	0.0	0.0
+organism	SVM	Fungi	Arthrobotrys flagrans	1	0	0	0	0.0	
+organism	SVM	Fungi	Aspergillus fumigatus (strain ATCC MYA-4609 / CBS 101355 / FGSC A1100 / Af293)	1	0	0	0	0.0	
+organism	SVM	Fungi	Aspergillus fumigatus (strain CBS 144.89 / FGSC A1163 / CEA10)	0	1	0	0		0.0
+organism	SVM	Fungi	Aspergillus kawachii (strain NBRC 4308)	0	2	0	0		0.0
+organism	SVM	Fungi	Aspergillus niger	0	1	0	0		0.0
+organism	SVM	Fungi	Aspergillus oryzae (strain ATCC 42149 / RIB 40)	0	2	0	1		0.5
+organism	SVM	Fungi	Aspergillus restrictus	0	1	0	0		0.0
+organism	SVM	Fungi	Candida albicans	1	0	0	0	0.0	
+organism	SVM	Fungi	Candida albicans (strain SC5314 / ATCC MYA-2876)	5	0	0	0	0.0	
+organism	SVM	Fungi	Candida parapsilosis (strain CDC 317 / ATCC MYA-4646)	1	0	0	0	0.0	
+organism	SVM	Fungi	Candidozyma auris	1	0	0	0	0.0	
+organism	SVM	Fungi	Ceratocystis fimbriata f. sp. platani	0	1	0	1		1.0
+organism	SVM	Fungi	Colletotrichum lindemuthianum	0	1	0	1		1.0
+organism	SVM	Fungi	Cryptococcus neoformans (strain H99 / ATCC 208821 / CBS 10515 / FGSC 9487)	2	0	0	0	0.0	
+organism	SVM	Fungi	Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139)	6	2	0	0	0.0	0.0
+organism	SVM	Fungi	Encephalitozoon cuniculi (strain GB-M1)	0	1	0	1		1.0
+organism	SVM	Fungi	Fusarium solani subsp. phaseoli	0	1	0	0		0.0
+organism	SVM	Fungi	Komagataella pastoris	1	0	0	0	0.0	
+organism	SVM	Fungi	Metarhizium robertsii (strain ARSEF 23 / ATCC MYA-3075)	2	0	0	0	0.0	
+organism	SVM	Fungi	Mycosarcoma maydis	2	0	0	0	0.0	
+organism	SVM	Fungi	Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / CBS 708.71 / DSM 1257 / FGSC 987)	9	0	0	0	0.0	
+organism	SVM	Fungi	Nosema bombycis (strain CQ1 / CVCC 102059)	0	1	0	0		0.0
+organism	SVM	Fungi	Penicillium expansum	2	0	0	0	0.0	
+organism	SVM	Fungi	Penicillium rubens (strain ATCC 28089 / DSM 1075 / NRRL 1951 / Wisconsin 54-1255)	3	0	0	0	0.0	
+organism	SVM	Fungi	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	321	3	2	0	0.006230529595015576	0.0
+organism	SVM	Fungi	Schizosaccharomyces pombe (strain 972 / ATCC 24843)	135	2	0	0	0.0	0.0
+organism	SVM	Fungi	Talaromyces funiculosus	0	1	0	1		1.0
+organism	SVM	Fungi	Trametes coccinea (strain BRFM310)	0	1	0	0		0.0
+organism	SVM	Fungi	Trichoderma reesei	0	1	0	0		0.0
+organism	SVM	Fungi	Typhula ishikariensis	0	1	0	0		0.0
+organism	SVM	Fungi	Yarrowia lipolytica (strain CLIB 122 / E 150)	2	0	0	0	0.0	
+organism	SVM	Metazoa	Acanthaster planci	0	1	0	0		0.0
+organism	SVM	Metazoa	Acanthoscurria gomesiana	0	1	0	0		0.0
+organism	SVM	Metazoa	Aedes aegypti	0	1	0	0		0.0
+organism	SVM	Metazoa	Aedes albopictus	0	1	0	0		0.0
+organism	SVM	Metazoa	Ampulex compressa	0	1	0	0		0.0
+organism	SVM	Metazoa	Anguilla anguilla	0	1	0	0		0.0
+organism	SVM	Metazoa	Anopheles gambiae	0	1	0	0		0.0
+organism	SVM	Metazoa	Apis mellifera	0	2	0	1		0.5
+organism	SVM	Metazoa	Aplysia californica	0	1	0	1		1.0
+organism	SVM	Metazoa	Bombyx mori	1	1	0	0	0.0	0.0
+organism	SVM	Metazoa	Bos taurus	14	7	0	1	0.0	0.14285714285714285
+organism	SVM	Metazoa	Caenorhabditis elegans	58	0	1	0	0.017241379310344827	
+organism	SVM	Metazoa	Cavia porcellus	1	1	0	0	0.0	0.0
+organism	SVM	Metazoa	Chironomus thummi thummi	0	1	0	0		0.0
+organism	SVM	Metazoa	Conus purpurascens	0	1	0	0		0.0
+organism	SVM	Metazoa	Conus virgo	0	1	0	0		0.0
+organism	SVM	Metazoa	Cotesia rubecula	0	1	0	0		0.0
+organism	SVM	Metazoa	Coturnix japonica	0	1	0	0		0.0
+organism	SVM	Metazoa	Danio rerio	1	0	0	0	0.0	
+organism	SVM	Metazoa	Doratifera vulnerans	0	1	0	0		0.0
+organism	SVM	Metazoa	Drosophila melanogaster	65	4	0	0	0.0	0.0
+organism	SVM	Metazoa	Eratigena agrestis	0	1	0	0		0.0
+organism	SVM	Metazoa	Galleria mellonella	0	1	0	0		0.0
+organism	SVM	Metazoa	Gallus gallus	2	4	0	1	0.0	0.25
+organism	SVM	Metazoa	Gastrophysa atrocyanea	0	1	0	0		0.0
+organism	SVM	Metazoa	Gloydius blomhoffii	0	1	0	0		0.0
+organism	SVM	Metazoa	Holotrichia diomphalia	0	1	0	0		0.0
+organism	SVM	Metazoa	Homo sapiens	490	63	10	6	0.02040816326530612	0.09523809523809523
+organism	SVM	Metazoa	Hyalophora cecropia	0	1	0	0		0.0
+organism	SVM	Metazoa	Hyas araneus	0	1	0	0		0.0
+organism	SVM	Metazoa	Limulus polyphemus	0	1	0	0		0.0
+organism	SVM	Metazoa	Manduca sexta	0	2	0	0		0.0
+organism	SVM	Metazoa	Megabalanus rosa	0	1	0	0		0.0
+organism	SVM	Metazoa	Monoplex parthenopeus	0	1	0	0		0.0
+organism	SVM	Metazoa	Mus musculus	222	14	5	2	0.02252252252252252	0.14285714285714285
+organism	SVM	Metazoa	Octopus vulgaris	1	0	0	0	0.0	
+organism	SVM	Metazoa	Olivierus martensii	0	1	0	0		0.0
+organism	SVM	Metazoa	Ophiophagus hannah	0	3	0	1		0.3333333333333333
+organism	SVM	Metazoa	Oreochromis mossambicus	0	1	0	1		1.0
+organism	SVM	Metazoa	Oryctolagus cuniculus	2	4	0	0	0.0	0.0
+organism	SVM	Metazoa	Ovis aries	0	1	0	0		0.0
+organism	SVM	Metazoa	Pan troglodytes	1	0	0	0	0.0	
+organism	SVM	Metazoa	Paralithodes camtschaticus	0	1	0	0		0.0
+organism	SVM	Metazoa	Penaeus merguiensis	0	1	0	0		0.0
+organism	SVM	Metazoa	Phlebotomus duboscqi	0	1	0	0		0.0
+organism	SVM	Metazoa	Pimpla hypochondriaca	0	1	0	0		0.0
+organism	SVM	Metazoa	Pinctada fucata	0	1	0	0		0.0
+organism	SVM	Metazoa	Pomacea canaliculata	0	1	0	0		0.0
+organism	SVM	Metazoa	Protophormia terraenovae	0	1	0	0		0.0
+organism	SVM	Metazoa	Pseudopleuronectes americanus	0	1	0	0		0.0
+organism	SVM	Metazoa	Rattus norvegicus	55	15	4	1	0.07272727272727272	0.06666666666666667
+organism	SVM	Metazoa	Rhipicephalus sanguineus	0	1	0	0		0.0
+organism	SVM	Metazoa	Rhodnius prolixus	0	1	0	0		0.0
+organism	SVM	Metazoa	Salmo salar	0	1	0	0		0.0
+organism	SVM	Metazoa	Schistosoma mansoni	1	0	0	0	0.0	
+organism	SVM	Metazoa	Scolopendra mutilans	0	2	0	0		0.0
+organism	SVM	Metazoa	Scyliorhinus canicula	2	0	0	0	0.0	
+organism	SVM	Metazoa	Scylla serrata	0	1	0	0		0.0
+organism	SVM	Metazoa	Sus scrofa	2	3	0	0	0.0	0.0
+organism	SVM	Metazoa	Tachypleus tridentatus	0	1	0	0		0.0
+organism	SVM	Metazoa	Vespula pensylvanica	0	1	0	1		1.0
+organism	SVM	Metazoa	Xenopus laevis	9	0	0	0	0.0	
+organism	SVM	Other	Badhamia polycephala	1	0	0	0	0.0	
+organism	SVM	Other	Crithidia fasciculata	1	0	0	0	0.0	
+organism	SVM	Other	Cyanidium caldarium	0	1	0	0		0.0
+organism	SVM	Other	Dictyostelium discoideum	17	2	0	0	0.0	0.0
+organism	SVM	Other	Euglena gracilis	1	0	0	0	0.0	
+organism	SVM	Other	Galdieria sulphuraria	1	0	0	0	0.0	
+organism	SVM	Other	Hematodinium sp	1	0	0	0	0.0	
+organism	SVM	Other	Leishmania infantum	1	0	0	0	0.0	
+organism	SVM	Other	Leishmania major	1	0	0	0	0.0	
+organism	SVM	Other	Phytophthora cryptogea	0	1	0	1		1.0
+organism	SVM	Other	Plasmodium berghei (strain Anka)	2	0	0	0	0.0	
+organism	SVM	Other	Plasmodium falciparum (isolate 3D7)	5	0	0	0	0.0	
+organism	SVM	Other	Plasmodium falciparum (isolate NF54)	1	0	0	0	0.0	
+organism	SVM	Other	Rhodomonas sp. (strain CS 24)	1	0	1	0	1.0	
+organism	SVM	Other	Sterkiella nova	1	0	0	0	0.0	
+organism	SVM	Other	Tetrahymena thermophila (strain SB210)	1	0	0	0	0.0	
+organism	SVM	Other	Toxoplasma gondii (strain ATCC 50611 / Me49)	1	0	0	0	0.0	
+organism	SVM	Other	Trypanosoma brucei brucei	2	1	0	0	0.0	0.0
+organism	SVM	Other	Trypanosoma brucei brucei (strain 927/4 GUTat10.1)	3	0	0	0	0.0	
+organism	SVM	Viridiplantae	Actinidia chinensis var. chinensis	0	1	0	0		0.0
+organism	SVM	Viridiplantae	Arabidopsis thaliana	286	2	3	0	0.01048951048951049	0.0
+organism	SVM	Viridiplantae	Avena sativa	0	2	0	0		0.0
+organism	SVM	Viridiplantae	Catharanthus roseus	2	0	0	0	0.0	
+organism	SVM	Viridiplantae	Chamaecyparis obtusa	0	1	0	0		0.0
+organism	SVM	Viridiplantae	Chlamydomonas reinhardtii	7	0	0	0	0.0	
+organism	SVM	Viridiplantae	Coffea arabica	0	1	0	1		1.0
+organism	SVM	Viridiplantae	Colocasia esculenta	1	0	0	0	0.0	
+organism	SVM	Viridiplantae	Crocus sativus	1	0	0	0	0.0	
+organism	SVM	Viridiplantae	Cucumis sativus	1	0	0	0	0.0	
+organism	SVM	Viridiplantae	Cucurbita maxima	0	1	0	0		0.0
+organism	SVM	Viridiplantae	Daucus carota	0	1	0	0		0.0
+organism	SVM	Viridiplantae	Dunaliella salina	1	0	0	0	0.0	
+organism	SVM	Viridiplantae	Glycine max	1	1	0	0	0.0	0.0
+organism	SVM	Viridiplantae	Heliotropium indicum	0	1	0	0		0.0
+organism	SVM	Viridiplantae	Hordeum vulgare	0	2	0	0		0.0
+organism	SVM	Viridiplantae	Juglans nigra	0	1	0	0		0.0
+organism	SVM	Viridiplantae	Juniperus virginiana	0	1	0	0		0.0
+organism	SVM	Viridiplantae	Marchantia polymorpha	1	0	0	0	0.0	
+organism	SVM	Viridiplantae	Mirabilis jalapa	0	1	0	1		1.0
+organism	SVM	Viridiplantae	Momordica charantia	0	1	0	0		0.0
+organism	SVM	Viridiplantae	Nicotiana tabacum	5	0	0	0	0.0	
+organism	SVM	Viridiplantae	Oryza sativa subsp. japonica	24	1	0	0	0.0	0.0
+organism	SVM	Viridiplantae	Papaver rhoeas	0	1	0	0		0.0
+organism	SVM	Viridiplantae	Petunia hybrida	1	0	0	0	0.0	
+organism	SVM	Viridiplantae	Pisum sativum	3	1	0	0	0.0	0.0
+organism	SVM	Viridiplantae	Populus euphratica	1	0	0	0	0.0	
+organism	SVM	Viridiplantae	Pyrus pyrifolia	0	1	0	0		0.0
+organism	SVM	Viridiplantae	Raphanus sativus	0	1	0	0		0.0
+organism	SVM	Viridiplantae	Scutellaria baicalensis	0	1	0	1		1.0
+organism	SVM	Viridiplantae	Solanum lycopersicum	0	1	0	0		0.0
+organism	SVM	Viridiplantae	Solanum tuberosum	3	1	0	0	0.0	0.0
+organism	SVM	Viridiplantae	Spinacia oleracea	13	0	0	0	0.0	
+organism	SVM	Viridiplantae	Viscum album	0	1	0	0		0.0
+organism	SVM	Viridiplantae	Zea mays	3	1	0	0	0.0	0.0
