@@ -44,7 +44,7 @@ LB2_project_Group_10/
 ```
 
 - `notebooks/`: main course notebooks and supplementary examples/exploration.
-- [05 benchmarking and analysis](notebooks/05_benchmarking_and_analysis.ipynb): final-model training, benchmarking, error analysis and conclusions (0–6) are executed and internally reviewed; ready for the professor's review.
+- [05 benchmarking and analysis](notebooks/05_benchmarking_and_analysis.ipynb): final-model training, benchmarking, error analysis and conclusions (0–6) are executed and internally reviewed; the PSWM, validation-score, RF feature-ranking and CV–benchmark comparison figures are also checked; ready for the professor's review.
 - [04 feature exploration](notebooks/04_feature_exploration.ipynb): training profiles and distributions for the 11 non-composition SVM features, with observations.
 - `notebooks/experiments/`: SVM variants, each with its own notebook, feature cache, tables and figures.
 - `notebooks/archive/`: archived notebooks.
@@ -76,9 +76,9 @@ The variants use the same five training folds and fixed 27-candidate search, wit
 
 ## Progress
 
-_Last updated: 12 November 2026._
+_Last updated: 13 November 2026._
 
-**Current focus: [05 - Benchmarking and analysis of results](notebooks/05_benchmarking_and_analysis.ipynb).** Steps 0–6 executed and internally reviewed; ready for the professor's review.
+**Current focus: [05 - Benchmarking and analysis of results](notebooks/05_benchmarking_and_analysis.ipynb).** Scientific steps 0–6 executed and internally reviewed; all four additional visual comparisons checked; ready for the professor's review.
 
 | Part                                                         | Status      | Results                                                                                                |
 | ------------------------------------------------------------ | ----------- | ------------------------------------------------------------------------------------------------------ |
@@ -87,7 +87,7 @@ _Last updated: 12 November 2026._
 | [02c - Data analysis](notebooks/02c_data_analysis.ipynb) | ✅ Reviewed | Length, SP composition and taxonomy analyses completed, including frequent-species tables and observations. 16 numbered PDF figures exported, including local WebLogo cleavage-site logos for training and benchmarking with a shared axis and improved readability. Training N-terminal composition comparison completed with a 70-residue window. Observations describe shared cleavage-site preferences and upstream hydrophobic patterns in both splits. |
 | [03 - Von Heijne method](notebooks/03_von_heijne_method.ipynb) | ✅ Reviewed | Five-round test results (mean ± SE): MCC 0.667 ± 0.018; F1 0.703 ± 0.016; precision 0.665 ± 0.030; recall 0.751 ± 0.021; accuracy 0.931 ± 0.005. Six figures and two tables saved; observations completed. Final benchmarking reported separately in 05. |
 | [04 - SVM method](notebooks/04_svm_method.ipynb) | 👀 Ready for review | Five outer rounds with 31 features and the fixed 27-candidate grid: MCC 0.858 ± 0.010; F1 0.873 ± 0.009 (mean ± SE). All 8,146 training proteins predicted once. Four figures and six result tables saved; observations completed. Final benchmarking reported separately in 05. |
-| [05 - Benchmarking and analysis of results](notebooks/05_benchmarking_and_analysis.ipynb) | 👀 Ready for review | Sections 0–6 executed and internally reviewed. Benchmark MCC/F1 = 0.663/0.700 (von Heijne), 0.871/0.885 (SVM). 16 TSVs, two context FASTA files, one predictor pickle and 11 PDFs saved. TM, false-negative and taxonomic error analyses completed, with observations and final limitations. |
+| [05 - Benchmarking and analysis of results](notebooks/05_benchmarking_and_analysis.ipynb) | 👀 Ready for review | Sections 0–6 executed and internally reviewed. Benchmark MCC/F1 = 0.663/0.700 (von Heijne), 0.871/0.885 (SVM). 17 TSVs, two context FASTA files, one predictor pickle and 15 PDFs saved. TM, false-negative and taxonomic error analyses completed, with observations and final limitations. PSWM, validation-score, final RF ranking and descriptive CV–benchmark comparison checked; CV uncertainty remains separate from benchmarking. |
 
 <details>
 <summary>Status legend</summary>
